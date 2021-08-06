@@ -1,0 +1,5 @@
+search_adds.settings:
+  title: 'Search Additions'
+  route_name: search_adds.settings
+  parent: system.admin_config_search
+  description: "Configure the Search Additions module."

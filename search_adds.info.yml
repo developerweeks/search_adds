@@ -1,0 +1,9 @@
+name: Search Additions
+type: module
+description: 'Add search suggestions with custom triggers'
+package: Custom
+dependencies:
+  - search_api:search_api
+core: 8.x
+core_version_requirement: ^8 || ^9
+configure: search_adds.settings

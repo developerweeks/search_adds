@@ -1,0 +1,7 @@
+search_adds.settings:
+  path: '/admin/config/search/search-adds'
+  defaults:
+    _form: '\Drupal\search_adds\Form\SearchAddsSettingsForm'
+    _title: 'Search Suggestions and Prompts'
+  requirements:
+    _permission: 'administer site configuration'
