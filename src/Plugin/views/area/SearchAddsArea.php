@@ -28,7 +28,7 @@ class SearchAddsArea extends AreaPluginBase {
     // Retrieve our trigger list.
     $config = \Drupal::config('search_adds.settings');
     $limit = $config->get('counted');
-    // All letters lowercase and remove punctuation.
+    // All letters to lowercase and remove punctuation.
     $fuzzy_search = preg_replace('/[^a-z0-9]/', '', strtolower($query));
 
     for ($i = 1; $i <= $limit; $i++) {
