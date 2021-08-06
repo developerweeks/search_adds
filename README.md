@@ -9,6 +9,9 @@ Install by normal means.  As this is not yet in the drupal community it cannot b
 - Set your custom triggers and responses on that page
 - Add the response region to the View holding your search results, typically in the Header space
 
+![image](https://user-images.githubusercontent.com/5340576/128545001-999fcf54-0b98-4ecf-b2b8-e86d72cab2b3.png)
+
+
 ## Disclaimer
 This module is still narrowly tested, with specific usage and acceptance criteria.  When multiple triggers are present in the search query, only the first match is returned.  This means the order of entries on the configuration page is significant.  Minimal fuzzy logic is included, and exact matches are given priority.
 ```php
